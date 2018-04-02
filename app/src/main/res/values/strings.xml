@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Notification</string>
+    <string name="fragment1">Сервис уведомления первого фрагмента</string>
+    <string name="fragment2">Сервис уведомления второга фрагмента</string>
+    <string name="fragment3">Сервис уведомления третьего фрагмента</string>
+</resources>

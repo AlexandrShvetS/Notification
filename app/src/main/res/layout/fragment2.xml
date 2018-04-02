@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/fragment2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/add_notification2"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="121dp"
+            android:background="@drawable/button_shape_circle"
+            android:text="Create new notification"
+            android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/del_fragment2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/add_fragment2"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_del" />
+
+        <TextView
+            android:id="@+id/fragment_message2"
+            android:layout_width="285dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="45dp"
+            android:background="@drawable/my_text_view"
+            android:text="2"
+            android:textAlignment="center"
+            android:textColor="#006ebf"
+            android:textSize="36sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="512dp" />
+
+        <Button
+            android:id="@+id/add_fragment2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="35dp"
+            android:layout_marginRight="20dp"
+            android:adjustViewBounds="false"
+            android:background="@drawable/button_add"
+            android:cropToPadding="false"
+            android:scaleType="centerCrop" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
